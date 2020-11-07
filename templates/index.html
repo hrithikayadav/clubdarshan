@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Club-darshan</title>
+
+    <meta charset="utf-8"/>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Architects+Daughter&family=Lobster&display=swap" rel="stylesheet">
+
+</head>
+
+<div class="pos-f-t">
+    <div class="collapse" id="navbarToggleExternalContent">
+        <div class="bg-dark p-4">
+            <h4 class="text-white">INWEB Hackathon</h4>
+            <span class="text-muted">Team 2</span>
+        </div>
+    </div>
+    <nav class="navbar navbar-dark bg-dark">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    </nav>
+</div>
+<center>
+
+    <div class="container">
+      <div class="row">
+          <div class="col">
+
+          </div>
+
+            <div class="col-12">
+                <div class="jumbotron" style="margin-top:0;">
+
+                    <h1 class="display-4" style="font-family: 'Abril Fatface', cursive;font-size:5rem;color: black;">Club-<span style="font-weight:700;">दर्शन</span></h1>
+                    <p class="lead" style="font-family: 'Lobster', cursive;font-size:2rem;color: rgb(19, 176, 187);">Get your perfect club match!</p>
+                    <img style="width: 40%;" src="/static/a.png">
+
+                </div>
+            </div>
+          <div class="col">
+
+          </div>
+      </div>
+
+      <div class="row">
+
+        <div class="col-md">
+          <!-- 1 of 5 -->
+        </div>
+
+        <div class="col-md">
+
+            <form>
+              <div class="form-group" style="font-family: 'Architects Daughter', cursive;">
+
+                <br>
+
+               <h4 style="font-size: 2.5rem;color: rgb(0, 10, 10);font-weight: 800;font-family: 'Lobster', cursive ;">Let's get to know each other better first!</h4>
+                        <br>
+                        <h2>From a scale of 1-10 :</h2>
+                        <br><br>
+
+                <label for="sepalLength">How much do you love Coding?</label>
+                <input type="sepal_length" max="10" min="1" class="form-control" id="_sepalLength" >
+
+                <br>
+
+                <label for="sepalWidth">Not prying......but how much of an introvert are you? </label>
+                <input type="sepal_width" max="10" min="1" class="form-control" id="_sepalWidth" >
+
+                <br>
+
+                <label for="petalLength">Is public speaking your thing?Mention down how good are you.</label>
+                <input type="petal_length" max="10" min="1" class="form-control" id="_petalLength">
+
+                <br>
+
+                <label for="petalWidth">How much do techy things intrigue you?</label>
+                <input type="petal_width" max="10" min="1"  class="form-control" id="_petalWidth" >
+
+                <br>
+
+                <a id="searchBtn" class="btn btn-primary" role="button">Fingers Crossed</a>
+
+                <br>
+
+
+
+              </div>
+            </form>
+
+        </div>
+
+        <div class="col-md">
+          <!-- 2 of 5 -->
+        </div>
+
+      </div>
+
+      <br>
+
+      <div class="row">
+
+        <div class="col-md">
+          <pr>
+            <!-- 3 of 5 -->
+          </pr>
+        </div>
+
+        <div class="col-md">
+
+
+              <br>
+            <h3 style="color: #000;">These are some Awesome clubs which are made for you😉</h3>
+            <!-- Render the name of Iris to the DOM. -->
+            <p id='json_response'></p>
+              <br>
+            <!-- Render the prob of each of Iris class to the DOM. -->
+
+        </div>
+
+        <div class="col-md">
+          <!-- 5 of 5 -->
+        </div>
+
+      </div>
+
+    </div>
+</center>
+
+<br>
+<br>
+<br>
+
+<body>
+
+    <script src="{{url_for('static', filename='app.js')}}"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
