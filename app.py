@@ -17,11 +17,11 @@ def main_page():
 
 def class2string(x):
     if x == np.array([0]):
-        return 'TECH'
+        return 'DSC SRM , SRMKZILLA , DSCOMMUNITY ,WEBARCH , NEXTTECH'
     elif x == np.array([1]):
         return 'CREATIVE'
     elif x == np.array([2]):
-        return 'CORPORATE'
+        return 'CSRMKZILLA , DAA , DSA SRM , AARUUSH'
     else:
         raise Exception('Based on the input values provided, unable to predict t {}'.format(x))
 
