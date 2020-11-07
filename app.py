@@ -19,7 +19,7 @@ def class2string(x):
     if x == np.array([0]):
         return 'DSC SRM , SRMKZILLA , DSCOMMUNITY ,WEBARCH , NEXTTECH'
     elif x == np.array([1]):
-        return 'CREATIVE'
+        return 'AARUUSH , THE LISTNING SPACE , NEWSLETTER CLUB , SRM IEC , SRM MUN , SRM ROCTRACT CLUB'
     elif x == np.array([2]):
         return 'CSRMKZILLA , DAA , DSA SRM , AARUUSH'
     else:
