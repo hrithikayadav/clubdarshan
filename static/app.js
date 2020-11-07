@@ -52,8 +52,7 @@ function predictClick(){
     if (error) return console.warn(error);
 
     // Render the JSON response back to the DOM using innerHTML.
-    $json_response.innerHTML =  'Based on our machine learning model,\
-                                the predicted clubs are:' + ' '
+    $json_response.innerHTML =  '' + ' '
                                 + response.iris_class_name + '.'
 
     $json_response_2.innerHTML = 'The probability of the Setoasa class is' +
